@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9539860221C4061300D9DBEC /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9539860121C4061300D9DBEC /* InternetDetailViewController.swift */; };
+		9539860421C40BAC00D9DBEC /* Internet Screen Topics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9539860321C40BAC00D9DBEC /* Internet Screen Topics.pdf */; };
+		9539860621C40BE500D9DBEC /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9539860521C40BE500D9DBEC /* InternetMasterViewController.swift */; };
 		95D0309A21C16F5600BC0A62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0309921C16F5600BC0A62 /* AppDelegate.swift */; };
 		95D0309C21C16F5600BC0A62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95D0309B21C16F5600BC0A62 /* ViewController.swift */; };
 		95D0309F21C16F5600BC0A62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95D0309D21C16F5600BC0A62 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9539860121C4061300D9DBEC /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
+		9539860321C40BAC00D9DBEC /* Internet Screen Topics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Internet Screen Topics.pdf"; path = "../../../../Downloads/Internet Screen Topics.pdf"; sourceTree = "<group>"; };
+		9539860521C40BE500D9DBEC /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		95D0309621C16F5600BC0A62 /* InternetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D0309921C16F5600BC0A62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95D0309B21C16F5600BC0A62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 			children = (
 				95D0309921C16F5600BC0A62 /* AppDelegate.swift */,
 				95D030A021C16F5C00BC0A62 /* Assets.xcassets */,
+				9539860321C40BAC00D9DBEC /* Internet Screen Topics.pdf */,
 				95D030A521C16F5C00BC0A62 /* Info.plist */,
 			);
 			path = Resources;
@@ -74,7 +81,9 @@
 		95D030AC21C16F7300BC0A62 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9539860121C4061300D9DBEC /* InternetDetailViewController.swift */,
 				95D0309B21C16F5600BC0A62 /* ViewController.swift */,
+				9539860521C40BE500D9DBEC /* InternetMasterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -147,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D030A421C16F5C00BC0A62 /* LaunchScreen.storyboard in Resources */,
+				9539860421C40BAC00D9DBEC /* Internet Screen Topics.pdf in Resources */,
 				95D030A121C16F5C00BC0A62 /* Assets.xcassets in Resources */,
 				95D0309F21C16F5600BC0A62 /* Main.storyboard in Resources */,
 			);
@@ -160,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				95D0309C21C16F5600BC0A62 /* ViewController.swift in Sources */,
+				9539860621C40BE500D9DBEC /* InternetMasterViewController.swift in Sources */,
+				9539860221C4061300D9DBEC /* InternetDetailViewController.swift in Sources */,
 				95D0309A21C16F5600BC0A62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
